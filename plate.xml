@@ -407,7 +407,7 @@
                 <textarea name="link_url" name_friendly="Link Url" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
-            
+            <items>
             </items>
           </dataset>
           <!-- RESOURCES END -->
