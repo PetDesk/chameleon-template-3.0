@@ -138,7 +138,7 @@
 								{{ if {form.field_type_toggle} == 0 }}
 								<div class="form-group">
 									<label for="id{{form.zuid}}">{{ form.custom_field_name }}</label>
-									<input name="{{ form.custom_field_name }}" type="text" class="form-control" id="id{{form.zid}}">
+									<input name="{{ form.custom_field_name }}" type="text" class="form-control" id="id{{form.zuid}}">
 								</div>
 								{{ else }}
 								<div class="form-group">
