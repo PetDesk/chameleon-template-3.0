@@ -114,7 +114,7 @@
 						<img src="{{ square.image.getImage(750, 550, crop) }}" alt="{{ square.image_title }} image">
 						<h3>{{ square.image_title }}</h3>
 						{{ if {square.button_text} }}
-						<span class="btn btn-lg btn-primary" href="{{if {square.links_to_external} == '' }}{{ truepath({square.links_to}) }}{{else}}{{square.links_to_external }}{{end-if}}">{{ square.button_text }}</span>
+						<span class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</span>
 						{{ end-if }}
 						{{ if {square.image_caption} }}
 						<div class="caption">
