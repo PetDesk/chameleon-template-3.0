@@ -16,7 +16,7 @@
 				<div class="row">
 					{{ end-if }}
 					<div class="col-lg-6 col-xs-6">
-						<img  class="footer-logo" src="{{ fl.footer_logo.getImage() }}" alt="{{ fl.logo_title }} logo">
+						<img  class="footer-logo" src="{{ fl.footer_logo.getImage() }}" alt="{{ fl.logo_alt_text }}">
 					</div>
 					{{ end-each }}
 				</div>
