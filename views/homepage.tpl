@@ -7,6 +7,7 @@
 		{{ each homepage_slides as slide sort by slide.sort_order }}
 		{{ if {slide.background_video} }}
 		<div class=""  >
+			<span class="background-video" role="video" aria-label="slider-video {{slide.background_video_alt_text }}"> </span>
 			<header style="{{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}" data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
 				<div class="cr bg-overlay">
 					<div class="cc">
@@ -25,6 +26,7 @@
 		</div>
 		{{ else }}
 		<div class=""  >
+			<span class="background-image" role="img" aria-label="slider-image {{slide.background_image_alt_text }}"> </span>
 			<header style="background-image:url('{{slide.background_image.getImage(2500)}}'); {{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}">
 				<div class="cr bg-overlay">
 					<div class="cc">
@@ -61,7 +63,7 @@
 			pauseOnHover: false,
 			pauseOnFocus: false,
 		});
-		
+
 	});
 </script>
 {{ include script-bg-vid }}
@@ -111,7 +113,7 @@
 			<div class="col-md-4">
 				<div class="square-wrap">
 					<a href="{{if {square.links_to_external} == '' }}{{ truepath({square.links_to}) }}{{else}}{{square.links_to_external }}{{end-if}}">
-						<img src="{{ square.image.getImage(750, 550, crop) }}" alt="{{ square.image_title }} image">
+						<img src="{{ square.image.getImage(750, 550, crop) }}" alt="{{ square.image_title }} image" alt="{{ square.background_image_alt_text }}">
 						<h3>{{ square.image_title }}</h3>
 						{{ if {square.button_text} }}
 						<span class="btn btn-lg btn-primary" href="{{if {square.links_to_external} == '' }}{{ truepath({square.links_to}) }}{{else}}{{square.links_to_external }}{{end-if}}">{{ square.button_text }}</span>
@@ -151,7 +153,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								(**timeline image **)
-								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage(668,370,crop)}});">
+								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage(668,370,crop)}});" alt="{{timeline.bubble_image_alt_text }}">
 									<div class="container">
 										<div class="row">
 											<div class="col-sm-5">
@@ -192,7 +194,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="timeline-image">
-									<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+									<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.bubble_image_alt_text }}">
 								</div>
 
 							</div>
