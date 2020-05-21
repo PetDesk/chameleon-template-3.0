@@ -106,7 +106,7 @@
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
-                    <homepage_title><![CDATA[]]></homepage_title>
+                    <homepage_title><![CDATA[Zesty Pet Clinic Homepage]]></homepage_title>
                     <!-- Squares Section -->
                     <background_pattern><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/low_contrast_linen.png]]></background_pattern>
                     <!-- Timeline text -->
@@ -305,7 +305,7 @@
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Contact Us]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/contact-us.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <address_one><![CDATA[]]></address_one>
@@ -330,7 +330,48 @@
                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
              </fields>
              <items>
-
+               <item>
+                 <day_of_week><![CDATA[Sunday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[3:00]]></close>
+                 <sort_order><![CDATA[1]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Monday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[2]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Tuesday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[3]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Wednesday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[5:00]]></close>
+                 <sort_order><![CDATA[4]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Thursday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[5]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Friday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[6]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Saturday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[3:00]]></close>
+                 <sort_order><![CDATA[7]]></sort_order>
+               </item>
              </items>
            </dataset>
           <!-- CONTACT US END -->
@@ -345,7 +386,7 @@
               </fields>
               <items>
                   <item link_title="Resources" path_part="resources">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Resources]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/resources.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -364,7 +405,7 @@
                 </fields>
                 <items>
                   <item link_title="FAQ" path_part="faq" parent="resources">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[FAQ]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/faq.9c27d5af619089da8db7cb29e414f6ac.jpg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -383,7 +424,7 @@
                 </fields>
                 <items>
                   <item link_title="Breeder Questions" path_part="breeder-questions" parent="resources">
-                    <page_title><![CDATA[]]></page_title>
+                    <page_title><![CDATA[Breeder Questioms]]></page_title>
                     <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/breeder-questions.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                     <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                     <body_text>
@@ -403,7 +444,7 @@
                 </fields>
                 <items>
                   <item link_title="Links" path_part="links" parent="resources">
-                    <page_title><![CDATA[]]></page_title>
+                    <page_title><![CDATA[Links]]></page_title>
                     <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/rat.9c27d5af619089da8db7cb29e414f6ac.jpg]]></main_image>
                     <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                     <body_text>
@@ -455,7 +496,7 @@
               </fields>
               <items>
                   <item link_title="Promotions" path_part="promotions">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Promotions]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-hero-6.9c27d5af619089da8db7cb29e414f6ac.jpg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -508,7 +549,7 @@
               </fields>
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Patient Resources]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-hero-2.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text><![CDATA[]]></body_text>
@@ -530,7 +571,7 @@
             </fields>
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[Patient Forms]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/paperwork.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <body_text>
@@ -540,7 +581,7 @@
                   <embedded_form_instrux><![CDATA[]]></embedded_form_instrux>
                   <default_fields><![CDATA[]]></default_fields>
                   <additional_fields><![CDATA[]]></additional_fields>
-                  <send_form_to><![CDATA[]]></send_form_to>
+                  <send_form_to><![CDATA[placeholder@example.com]]></send_form_to>
               </item>
             </items>
           </templateset>
@@ -554,7 +595,7 @@
             </fields>
             <items>
               <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[Payment Options]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/payment-03.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <body_text>
@@ -605,7 +646,7 @@
               </fields>
               <items>
                   <item link_title="Services" path_part="services">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Services]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/bunny.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text><![CDATA[]]></body_text>
@@ -624,7 +665,7 @@
               </fields>
               <items>
                 <item link_title="General Health" path_part="general-health" parent="services">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[General Health]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/resources.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <service_page_alt_text><![CDATA[]]></service_page_alt_text>
@@ -633,7 +674,7 @@
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item link_title="Vaccines" path_part="vaccines" parent="services">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[Vaccines]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/vaccines-2.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <service_page_alt_text><![CDATA[]]></service_page_alt_text>
@@ -641,7 +682,7 @@
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item link_title="Care Packages" path_part="care-packages" parent="services">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[Care Packages]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/hammie.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <service_page_alt_text><![CDATA[]]></service_page_alt_text>
@@ -649,7 +690,7 @@
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item link_title="Dental Care" path_part="dental-care" parent="services">
-                  <page_title><![CDATA[]]></page_title>
+                  <page_title><![CDATA[Dental Care]]></page_title>
                   <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/dental.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                   <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                   <service_page_alt_text><![CDATA[]]></service_page_alt_text>
@@ -671,7 +712,7 @@
               </fields>
               <items>
                   <item link_title="About Us" path_part="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[About Us]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-hero-6.9c27d5af619089da8db7cb29e414f6ac.jpg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -692,7 +733,7 @@
               </fields>
               <items>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-hero.H15iUU_ix.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -713,7 +754,7 @@
               </fields>
               <items>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-testimonial.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -733,7 +774,7 @@
               </fields>
               <items>
                   <item link_title="Careers" path_part="careers" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/hammie.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -753,7 +794,7 @@
               </fields>
               <items>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/our-videos.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -773,7 +814,7 @@
               </fields>
               <items>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/cat-play.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <body_text>
@@ -946,7 +987,7 @@
               </fields>
               <items>
                   <item link_title="Office Tour" path_part="office-tour" parent="about-us">
-                      <page_title><![CDATA[]]></page_title>
+                      <page_title><![CDATA[Office Tour]]></page_title>
                       <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/office-tour.9c27d5af619089da8db7cb29e414f6ac.jpeg]]></main_image>
                       <main_image_alt_text><![CDATA[]]></main_image_alt_text>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
