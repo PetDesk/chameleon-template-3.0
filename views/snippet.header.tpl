@@ -26,7 +26,7 @@
 						<!-- Appt request button and phone go here-->
 						<div class="tel-align pull-right">
 							<a class="btn btn-primary" style="font-size: {{ clippings.telephone_number_height }}px;" id="tel" href="tel: {{ clippings.phone }}"><i class="fa fa-phone-square" aria-hidden="true"></i>  {{ clippings.phone }}</a>
-							<a class="btn btn-primary" style="font-size: {{ clippings.request_button_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank" ><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>  Request Appointment</a>
+							<a class="btn btn-primary" style="font-size: {{ clippings.request_button_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" onClick= "ga('set', 'dimension3', 'THEME_CHAMELEON'); ga('set', 'page', '/ZESTY/CUSTOMER_WEBSITE_BUTTONCLICK'); ga('send', 'pageview'); ga('send', 'event', 'ZESTY', 'CUSTOMER_WEBSITE_BUTTONCLICK');" target="_blank" ><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>  Request Appointment</a>
 						</div>
 						<div id="menu-toggle" class="">
 							<span></span>
@@ -88,7 +88,7 @@
 						</div>
 						<div id="tel-appt">
 							<h4><a href="tel: {{ clippings.phone }}" >tel: {{ clippings.phone }}</a></h4>
-							<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+							<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?placeGUID={{ clippings.petdesk_ref_code }}" onClick= "ga('set', 'dimension3', 'THEME_CHAMELEON'); ga('set', 'page', '/ZESTY/CUSTOMER_WEBSITE_BUTTONCLICK/HAMNAV'); ga('send', 'pageview'); ga('send', 'event', 'ZESTY', 'CUSTOMER_WEBSITE_BUTTONCLICK', ‘HAMNAV’);" target="_blank" >Request Appointment</a>
 							<ul class="list-inline social-buttons pull-right text-center">
 								{{each social_links as social}}
 								<li class="social-{{social.font_awesome_icon}}">
