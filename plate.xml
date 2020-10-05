@@ -10,9 +10,7 @@
             <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js" />
             <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
             <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-            <googlefont family="Montserrat" />
-            <googlefont family="Droid Serif" />
-            <googlefont family="Hind" />
+            <link href="//fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
         </head>
         <!-- CLIPPINGS -->
         <clippings>
