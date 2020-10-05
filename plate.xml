@@ -10,7 +10,7 @@
             <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js" />
             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-            <link rel="stylesheet" href="//fonts.googleapis.com%2Fcss2%3Ffamily%3DHind%26amp%3Bdisplay%3Dswap" />
+            <link rel="stylesheet" href="//fonts.googleapis.com/css2%3Ffamily%3DHind%26amp%3Bdisplay%3Dswap" />
         </head>
         <!-- CLIPPINGS -->
         <clippings>
