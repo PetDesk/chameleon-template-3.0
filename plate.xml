@@ -92,6 +92,64 @@
               </item>
             </items>
           </dataset>
+            
+            <dataset name="accessibility_colors" name_friendly="Accessibility Colors">
+              <fields>
+                <color name="site_wide" name_friendly="1. Site Wide" />
+                <color name="subpage_headers_h1" name_friendly="2. Subpage Headers" />
+                <color name="h3_headers_squares_title" name_friendly="3. Homepage Square Titles" />
+                <color name="h3_headers_employee_cats" name_friendly="4. Employee Cats" />
+                <color name="links" name_friendly="5. Links" />
+                <color name="link_hover_color" name_friendly="6. Link Hover Color" />
+                <color name="all_icons" name_friendly="7. All Icons" />
+                <color name="social_icon_hover_background" name_friendly="8. Social Icon Hover Background Color" />
+                <color name="all_buttons" name_friendly="9. All Buttons (except for Slider)" />
+                <color name="all_buttons_hover" name_friendly="10. All Buttons Hover (except for Slider)" />
+                <color name="site_name" name_friendly="11. Site Name" />
+                <color name="site_name_hover" name_friendly="12. Site Name Hover" />
+                <color name="all_nav_items" name_friendly="13. All Nav Items" />
+                <color name="all_nav_items_hover" name_friendly="14. All Nav Items Hover" />
+                <color name="nav_active_item_bg_color" name_friendly="15. Nav Active Item Background Color" />
+                <color name="slider_text" name_friendly="16. Slider Text" />
+                <color name="slider_button" name_friendly="17. Slider Button" />
+                <color name="slider_button_hover" name_friendly="18. Slider Button Hover" />
+                <color name="all_timeline_titles" name_friendly="19. Timeline Title, Bubble Titles and Bubble Subtitles" />
+                <color name="timeline_body_text_header_subtitle" name_friendly="20. Timeline Body Text and Main Subtitle" />
+                <color name="homepage_about_section" name_friendly="21. Homepage About Section" />
+                <color name="footer_text" name_friendly="22. Footer Text" />
+                <color name="sectionlinks" name_friendly="23. Sectionlinks" />
+
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                    <site_wide><![CDATA[]]></site_wide>
+                    <subpage_headers_h1><![CDATA[]]></subpage_headers_h1>
+                    <h3_headers_squares_title><![CDATA[]]></h3_headers_squares_title>
+                    <h3_headers_employee_cats><![CDATA[]]></h3_headers_employee_cats>
+                    <links><![CDATA[]]></links>
+                    <link_hover_color><![CDATA[]]></link_hover_color>
+                    <all_icons><![CDATA[]]></all_icons>
+                    <social_icon_hover_background><![CDATA[]]></social_icon_hover_background>
+                    <all_buttons><![CDATA[]]></all_buttons>
+                    <all_buttons_hover><![CDATA[]]></all_buttons_hover>
+                    <site_name><![CDATA[]]></site_name>
+                    <site_name_hover><![CDATA[]]></site_name_hover>
+                    <all_nav_items><![CDATA[]]></all_nav_items>
+                    <all_nav_items_hover><![CDATA[]]></all_nav_items_hover>
+                    <nav_active_item_bg_color><![CDATA[]]></nav_active_item_bg_color>
+                    <slider_text><![CDATA[]]></slider_text>
+                    <slider_button><![CDATA[]]></slider_button>
+                    <slider_button_hover><![CDATA[]]></slider_button_hover>
+                    <all_timeline_titles><![CDATA[]]></all_timeline_titles>
+                    <timeline_body_text_header_subtitle><![CDATA[]]></timeline_body_text_header_subtitle>
+                    <homepage_about_section><![CDATA[]]></homepage_about_section>
+                    <footer_text><![CDATA[]]></footer_text>
+                    <sectionlinks><![CDATA[]]></sectionlinks>
+
+                  </item>
+              </items>
+          </dataset>
+            
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
